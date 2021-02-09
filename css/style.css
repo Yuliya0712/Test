@@ -1,0 +1,22 @@
+div {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div:hover{
+    background-color: tomato;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+#item, p{
+    color: brown;
+}
+div p{
+    background-color: yellow;
+    color: violet;
+}
+span{
+    background-color: teal;
+}
