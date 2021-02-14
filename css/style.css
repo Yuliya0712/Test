@@ -1,0 +1,25 @@
+body{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    line-height:1.4;
+    letter-spacing:0.05em;
+    color: green;
+    text-align: justify;
+}
+.social-icons .fab{
+    color: gray;
+    margin-top: 30px;
+
+}
+.social-icons .fa-facebook:hover{
+    color: #1877f2;
+}
+.social-icons .fa-instagram:hover{
+    color: rgb(134 20 12 / 98%);
+}
+.social-icons .fa-youtube:hover{
+    color: #ff0000;
+}
+.social-icons .fa-pinterest:hover{
+    color: #e60023;
+}
