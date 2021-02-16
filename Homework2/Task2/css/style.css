@@ -1,0 +1,15 @@
+h1{
+  margin: 20px;
+}
+
+ul{
+  list-style-type: square;
+  margin: 5px 10px;
+}
+li:nth-child(1){
+  color: #FF00FF;
+}
+li:nth-child(5){
+	color: #00FF00;
+	font-style: italic;
+}

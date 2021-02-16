@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #C0C0C0;
+}
+div{
+  width: 400px;
+  border:2px solid red;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  }
+h2{
+  text-align: center;
+  padding:20px 10px;
+  text-transform: uppercase;
+  background-color:#FFF;
+}
+p{
+   background-color:#FFF;
+  text-align: left;
+  padding:20px 10px;
+}
+  
+
+

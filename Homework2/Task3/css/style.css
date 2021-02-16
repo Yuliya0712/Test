@@ -1,0 +1,19 @@
+ul{
+  list-style-type: none;
+  width: 400px;
+}
+li{
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid green;
+  margin: 0 5px 5px 0;
+  text-align: center;
+  padding-top: 5px;
+  }
+li:nth-child(3){
+  background-color: #8FBC8F;
+}
+li:nth-child(7){
+  background-color: #8FBC8F;
+}

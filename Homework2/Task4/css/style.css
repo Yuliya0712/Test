@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-weight: bold;
+ 
+}
+header,footer{
+  background-color: #8FBC8F;
+  padding: 10px;
+}
+nav{
+   height: 30px;
+  background-color: #20B2AA;
+  padding: 10px;
+  
+}
+#sidebar,aside{
+  float: left;
+  background-color: #4169E1;
+   width: 25%;
+  height: 600px;
+  text-align: center;
+}
+ 
+#content{
+  float: left;
+  background-color: #87CEEB;
+   width: 50%;
+  height: 600px;
+  text-align: center;
+}
+
+
+
+
+
