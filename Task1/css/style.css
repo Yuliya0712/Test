@@ -1,0 +1,39 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: fuchsia;
+    margin: 30px;
+
+}
+@keyframes rtt{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rtt{
+    0%{
+        transform: rotate(0deg)
+    }
+    25%{
+        transform: rotate(90deg)
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    75%{
+        transform: rotate(270deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+
+}
+.rotation{
+    animation-name: rtt;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+} 

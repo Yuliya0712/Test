@@ -1,0 +1,49 @@
+div{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+}
+.fig1{
+    background-color: red;
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(50% 5%, 0% 100%, 100% 100%);
+}
+.fig2{
+    background-color: red; 
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+.fig3{
+    background-color:green; 
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(0 100%, 0 0, 100% 50%);
+    
+}
+.fig4{
+    background-color:green; 
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(100% 100%, 100% 0, 0 50%);
+
+}
+.fig5{
+    background-color: yellow;
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(100% 100%, 0 0, 0 100%);
+}
+.fig6{
+    background-color: yellow;
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(100% 100%, 100% 0, 0 100%);
+}
+.fig7{
+    background-color: blue;
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(0 100%, 100% 0, 0 0);
+
+}
+.fig8{
+    background-color: blue;
+    transition: 0.4s cubic-bezier(1, -1, 0, 2);
+    clip-path: polygon(100% 100%, 100% 0, 0 0);
+}

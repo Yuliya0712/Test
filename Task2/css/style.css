@@ -1,0 +1,10 @@
+ul{
+    list-style-type: none;
+    margin: 15px;
+}
+li::before{
+    content:"\25b3";
+    color: rgb(196, 16, 196);
+    padding: 5px;
+
+}
