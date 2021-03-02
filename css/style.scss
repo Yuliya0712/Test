@@ -1,0 +1,54 @@
+@import "reset";
+
+$size-text:18 px;
+$color-text: grey;
+
+@mixin position-center($top, $left) {
+    position: absolute;
+    top: $top;
+    transform: translate(-50%, -50%);
+    left:$left;
+    @if $left == 50% {
+        background-color: brown;
+    } @else if $left == 60%{
+        color: red;
+    } 
+    @else{
+        background-color: chartreuse;
+    }
+
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    @include position-center(50%, 60%);
+}
+
+.container{
+    @include position-center(50%, 50%);
+}
+div{
+    background-color: aquamarine;
+    color: $color-text;
+    /*font-size: $size-text;*/
+    font{
+        family: sans-serif, Arial;
+        size: $size-text;
+    }
+}
+nav {
+    position: fixed;
+    top: 100px;
+    ul{
+        background-color: $color-text;
+    }
+
+}
+p{
+    color: $color-text;
+    &:hover{
+        color: yellow;
+    }
+}
