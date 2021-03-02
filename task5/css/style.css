@@ -4,15 +4,24 @@
   background-color: #C0C0C0;
 }
 div{
-  width: 400px;
-  border:2px solid red;
-  position: absolute;
-  left: 30%;
-  top: 30%;
+ width:600px;
+    height: 200px;
+    border: 3px solid red;
+    border-radius: 8px;
+    position:relative;
+    left: 25%;
+    top: 20%;
+    right: 75%;
+    bottom: 80%;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
   }
 h2{
-  text-align: center;
-  padding:20px 10px;
+   border-bottom: 1px solid gray;
+    text-align: center;
+    height: 50px;
+    width: 400px;
+    margin-left: 100px;
   text-transform: uppercase;
   background-color:#FFF;
 }
@@ -20,7 +29,10 @@ p{
    background-color:#FFF;
   text-align: left;
   padding:20px 10px;
+   margin: 17px;
 }
+
+
+
   
-
-
+  
