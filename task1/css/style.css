@@ -1,0 +1,97 @@
+body{
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-right: 125px;
+    width: 1350px;
+    height: auto;
+    background-color: rgb(255, 251, 251);
+    width: 1110px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Fira Sans;
+}
+
+.header-menu, .title, .pictures, .arttext2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 125px;
+
+}
+.title{
+    margin-bottom: 65px;
+}
+.text{
+    width: 540px;
+    height: 140px;
+}
+
+.social-icons,{
+    align-self: flex-end;
+    
+}
+a{
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+}
+.article1{
+    display: flex;
+    flex-direction: column;
+    
+}
+div.article1>img{
+margin: 20px 0 20px 0;
+
+}
+.pictures{
+    margin-bottom: 45px;
+}
+div.pictures>img, .picture2{
+   margin-top: 135px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+.picture2{
+    background-image: url(../image/Placeholder\ \(2\).jpg);
+    width: 350px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.play-button{
+    width: 65px;
+    height: 65px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+span{
+   display: block;
+   text-align: left;
+   width: 540px;
+   height: 90px;
+   padding-right: 50px;
+}
+.arttext2{
+    height: 290px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 60px;
+   
+}
+input{
+    width: 150px;
+    height: 60px;
+    background-color: orange;
+    color: white;
+    border: none;
+    letter-spacing: 5px;
+}
+p{
+    margin: 0;
+}
+
+
