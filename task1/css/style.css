@@ -1,21 +1,28 @@
 body{
     margin-top: 60px;
-    margin-left: 125px;
-    margin-right: 125px;
-    width: 1350px;
+    width: 100%;
     height: auto;
     background-color: rgb(255, 251, 251);
-    width: 1110px;
     font-size: 18px;
     line-height: 28px;
     font-family: Fira Sans;
+    font-style: normal;
 }
 
-.header-menu, .title, .pictures, .arttext2{
+main{
+    width: 100%;
+}
+
+.section, .wrap, header {
+    width: 1350px;
+    margin: auto;
+}
+
+.header-menu, .title, .pictures, .arttext2, .block--applications,.brands-content, .brands-icons, .brands-text, .block-contacts, .block-news,.news-menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 125px;
+   margin-bottom: 120px;
 
 }
 .title{
@@ -30,10 +37,10 @@ body{
     align-self: flex-end;
     
 }
-a{
+i{
     padding: 5px;
     color: black;
-    text-decoration: none;
+
 }
 .article1{
     display: flex;
@@ -53,7 +60,7 @@ div.pictures>img, .picture2{
    margin-right: 15px;
 }
 .picture2{
-    background-image: url(../image/Placeholder\ \(2\).jpg);
+    background-image: url(../images/Placeholder\(2\).jpg);
     width: 350px;
     height: 450px;
     display: flex;
@@ -61,7 +68,7 @@ div.pictures>img, .picture2{
     align-items: center;
 
 }
-.play-button{
+.play-button {
     width: 65px;
     height: 65px;
    background-color: white;
@@ -69,6 +76,7 @@ div.pictures>img, .picture2{
    justify-content: center;
    align-items: center;
 }
+
 span{
    display: block;
    text-align: left;
@@ -82,7 +90,7 @@ span{
     margin-bottom: 60px;
    
 }
-input{
+.button{
     width: 150px;
     height: 60px;
     background-color: orange;
@@ -90,8 +98,77 @@ input{
     border: none;
     letter-spacing: 5px;
 }
-p{
-    margin: 0;
+
+.block--applications{
+   justify-content: flex-end; 
 }
+.title-block{
+    margin-right: 100px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.content-block{
+    margin-right: 55px;
+    text-align: left;
+    width: 230px;
+    padding-left: 15px;
+}
+h4{
+    text-transform: uppercase;
+    line-height: 24px;
+}
+.data-block{
+    font-weight: 700;
+    margin-top: 25px;
+}
+.brands-info{
+    background-color: white;
+    width: 100%;
+    margin-bottom: 0px;
+   }
+.brands-icons{
+    padding-bottom:120px ;
+    margin-bottom: 0px;
+}
+.brands-text{
+width: 445px;
+height: 82px;
+margin: 0 auto 0 auto;
+padding-top: 40px;
+}
+.brands-content-text{
+    width: 445px;
+    height: 62px; 
+}
+.icofont-brand-xiaomi, .icofont-tinder,.icofont-brand-apple,.icofont-brand-amd{
+    color: gray;
+}
+h2{
+    font-size: 40px;
+}
+footer{
+    background-color: rgb(99, 97, 97);
+    color: ivory;
+    height: 240px;
 
-
+}
+.email{
+width: 170px;
+height: 40px;
+}
+.block-contacts .button{
+    width: 110px;
+    height: 40px;
+    background-color: rgb(134, 126, 126);
+}
+.block-contacts div, .news-menu div, .news-social-icons{
+    margin: 20px;
+}
+.block-contacts{
+    border-bottom: 1px solid ivory;
+    margin-bottom: 0px;
+}
+.news-social-icons i{
+    color: ivory;
+}
