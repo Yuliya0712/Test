@@ -44,12 +44,20 @@
 
 let str='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus non voluptatum dolorum, esse perspiciatis eaque?????';
 let words = str.split(' ');
-// words[7]
-for(let i=0; i<tmp.length;i++){
-    if (tmp[i]!=','&& tmp[i]!='.') {
-       console.log(tmp[i]); 
+
+
+for (let i = 0; i < words.length; i++) {
+  let tmp = words[i];
+  let word = "";
+  for (let j = 0; j < tmp.length; j++) {
+    if (tmp[j] == "," || tmp[j] == "." || tmp[j] == "?") {
+      continue;
     }
 
+    word += tmp[j];
+  }
+  if (word.length > 5) {
+    console.log(word);
+  }
 }
-
 console.log(words);
