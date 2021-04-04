@@ -1,63 +1,45 @@
-// let array = [1, 'sum', 3];
-// let sum=0;
+// let str='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus non voluptatum dolorum, esse perspiciatis eaque?????';
+// let arr = str.split(' ');
 
-// for (let i=array.length-1; i >=0; i--) {
-    // sum+=array[i];//sum=sum+array[i]
-    // console.log(array[i]);
+// function compareNum(a, b) {
+//   if (a > b) return 1;
+//   if (a == b) return 0;
+//   if (a < b) return -1;
+// }
+// let arr = [1, 2, 10];
+// arr.sort(compareNum);
+// console.log(arr);
 
+
+// let arr = [1, 2, 3, 4, 5];
+// let arg = prompt("Input number", "0");
+
+// if (arg != null) {
+//   searchElem(arg);
+ 
+//   } else {
+//   console.log("Cancel was pressed");
 // }
 
+// function searchElem(arg);
+//  let res = arr.indexOf(+arg);
+//   if (res == -1) {
+//     console.log("Num not found");
+//   } else {
+//     console.log(res);
+//   }
 
-// let array = [1, 2, 3];
-// let arr= new Array(1,2,3);
-// let mas=[];
-// let alt = new Array(5);
 
-// let matrix=[
-//     [1,2,3,0],
-//     [4,5,6],
-//     [7,8,9],
-// ];
-// console.log(matrix[1][1]);
-// let sum=0;
-
-// for (let i=0;i<matrix.length; i++) {
-//    for (let j=0;j<matrix[i].length;j++)
-//    {
-//     console.log(matrix[i][j]);
-//     sum+=matrix[i][j];
+// let arr = [1, 2, 3, 4, 5];
+// for (const iterator of arr) {
+//   console.log(iterator);
 // }
-// }
-// console.log(sum);
 
-//  let users = [];
-//  for (let i = 0; 1; i++) {
-//    let str = prompt("Input your name", "");
-//    if (str == null) {
-//      console.log("cancel was pressed");
-//      break;
-//    } else {
-//      users.push(str);
-//    }
-//  }
-//  console.log(users);
+// let arr = ["html", "css", "javascript"];
+// arr.forEach(function (item, i, arr) {
+//   alert(i + ": " + item + " (массив:" + arr + ")");
+// });
 
-let str='Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus non voluptatum dolorum, esse perspiciatis eaque?????';
-let words = str.split(' ');
-
-
-for (let i = 0; i < words.length; i++) {
-  let tmp = words[i];
-  let word = "";
-  for (let j = 0; j < tmp.length; j++) {
-    if (tmp[j] == "," || tmp[j] == "." || tmp[j] == "?") {
-      continue;
-    }
-
-    word += tmp[j];
-  }
-  if (word.length > 5) {
-    console.log(word);
-  }
-}
-console.log(words);
+let arr = ['html', 'css', 'javascript'];
+let nameLengths = arr.map((name) => name.length);
+console.log(nameLengths);
