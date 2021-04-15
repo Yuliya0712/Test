@@ -1,121 +1,65 @@
+// let a = 1;
 
-
-// let obj1 = { name: "Serhii",age:30 }
-// obj1.getName = function(){
-//     alert(this.name+" "+this.age);
-// }
-
-// obj1.getName();
-
-
-// let person = { name: "Serhii",
-// age:30,
-// getFullInfo = function(){
-//     alert(this.name+" "+this.age);
-// }
-//  }
-// person.getFullInfo();
-
-function Student(name,age){
-    this.name = name;
-    this.age = age;
-}
-
-let stud1 = new Student("Alex",17);
-let stud2 = new Student("Alex",18);
-
-console.log(stud1.age+stud2.age);
-
-
-
-// let i = 0;
-// let j = 1;
-// i = j;
-// j = 2;
-// // console.log(i);
-// // console.log(j);
-// let obj1 = { name: "Serhii",age:30 }
-// delete obj1.name;
-
-// if ('name' in obj1){
-//     console.log(true);
-// }else{
-//     console.log(false);
-// }
-
-// let obj2 ={};
-
-// for (let key in obj1 ){
-//     obj2[key]=obj1[key];
-// }
-
-// for (let key in obj2 ){
-//     console.log(obj2[key]);
-// }
-
-// let obj3 = Object.assign[{},obj2];
-
-// for ( let key in obj3){
-//     console.log(obj3[key]);
-// }
-
-// let obj4 = JSON.stringify(obj3);
-// console.log(obj4);
-// obj4 = JSON.parse(obj4)
-
-// for ( let key in obj4){
-//     console.log(obj4[key]);
+// if (a > 0 && a < 5) {
+//   console.log(true);
+// } else {
+//   console.log(false);
 // }
 
 
-let students = [
-  { name: "Nick", age: 25, group: "F1" },
-  { name: "Ann", age: 25, group: "F2" },
-  { name: "Ron", age: 25, group: "F2" },
-  { name: "Lily", age: 25, group: "F1" },
-];
+// console.log((a > 0 && a < 5) ? true: false)
 
-for (let item of students) {
-if (item.group=='F1') {
-    console.log(item);
-} else {
-    // console.log(item);
-}
+// let filter = function (a) {
+//     return (a > 0 && a < 5) ? true: false;
+// }
+// console.log(filter(a));
 
 
-//   for (let key in item) {
-//     if (key == "group") {
-//       if (item[key] == "F1") {
-//         console.log(item[key]);
-//       }
-//     }
+
+// function print(str) {
+//     console.log(str);
+//     // alert(str);
 //   }
+//   function getValidatedArg(num) {
+//     if (typeof num != "number") {
+//       num = parseInt(num);
+//       print("Параметр имеет неправильный тип " + typeof num);
+//     }
+//     return num;
+//   }
+//   function getSelectedValue(num) {
+//     let result;
+//     num = getValidatedArg(num);
+//     switch (num) {
+//       case 1:
+//         result = "зима";
+//         break;
+//       case 2:
+//         result = "весна";
+//         break;
+//       case 3:
+//         result = "лето";
+//         break;
+//       case 4:
+//         result = "осень";
+//         break;
+//       default:
+//         result = "Я не знаю такого значения " + num;
+//     }
+//     return result;
+//   }
+  
+//   let num = prompt("Введите число от 1 до 4");
+  
+//   print(getSelectedValue(num));
+  
+
+
+/Данная строка 'aaa bbb ccc ". Вырез с нее слово "bbb" тремя различными способами (через substr, substring, slice).
+
+let str = 'aaa bbb ccc';
+let arg = 'bbb';
+function customSubstr(src, substr) {
+    src = ;
+    return src;
 }
-// console.log(arr[0]['name']+" "+arr[0].group);
-
-
-
-
-
-
-
-
-
-// console.log(obj1);
-// console.log(obj2);
-
-// let i = 0;
-// let arr = [
-//   { "First name": "Ivan", age: 30, title: "Junior Dev" },
-//   { "First name": "Alex", age: 30, title: "Middle Dev" },
-//   { "First name": "Anna", age: 30, title: "Junior Dev" },
-// ];
-// console.log(arr[0]["First name"]+" "+arr[0].title+" " +arr[0].age);
-
-// let obj = {'First name':'Ivan', age:30,title:'Junior Dev'};
-
-// console.log(obj.age);
-// let arg = 'age';
-// arg = 'First name';
-
-// console.log(obj[arg]);
