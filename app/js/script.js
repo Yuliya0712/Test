@@ -1,51 +1,71 @@
-console.log('start');
-setTimeout(
-    function() {alert('stop');},5000
-)
-clearTimeout(id);
-console.log('finish');
+// практика по аватарке
+// let name = "https://api.github.com/users/Yuliya0712"
 
 // $.ajax({
-//     type: 'GET',
-//     cache: false,
-//     url: 'https://jsonplaceholder.typicode.com/todos/',
-//     success: function(data, textStatus,request){
-//     // console.log(data);
-//     data = JSON.stringify(data);
-//     // console.log(data);
-//     data = JSON.parse(data);
-//     // console.log(typeof data);
-    
-// let result = "";
-//     for (let i = 0; i < data.length; i++) {
-//     //   console.log(data[i].userId);
-//     //   console.log(data[i].id);
-//     //   console.log(data[i].title);
-//     //   console.log(data[i].completed);
+//   url: "https://api.github.com/users/Yuliya0712",
+//   type: "GET",
+//   dataType: "json",
+//   success: function(res) {
+//     console.log(res);
+//     for (let item in res){
+//         console.log(item+"="+res[item]);
+//         $('#result').append('<div>'+res[item]+'</div>');
 
-//      result+= 
-//      '<tr>'+
-//      '<td>'+
-//      data[i].userId+
-//      '</td>'+
-//      '<td>'+
-//      data[i].id+
-//      '</td>'+
-//      '<td>'+
-//      data[i].title+
-//      '</td>'+
-//      '<td>'+
-//      data[i].completed;
-//      '</td>'+
-//      '</tr>'+
 //     }
-//     $('#result').append("<table>"+result+"</table>");
 
 
-//     // console.log(textStatus);
-//     // console.log(request);
-// },
-// error: function (error){
-//     console.log(error);
+    // $('#result').append('<div>'+res.avatar_url+'</div>');
+    // $('#result').append('<div>'+JSON.stringify(res)+'</div>');
+//   },
+// });
+
+// function Animal(name){
+//     this.name = name;
+//     this.speed = 0;
 // }
-// })
+
+// function Rabbit(name){
+//     this.eats = true;
+//     this.name = name;
+//     this.speed = 0;
+// }
+
+// Rabbit.prototype = Object.create(Animal.prototype);
+// Rabbit.prototype.constructor = Rabbit;
+
+
+
+// let obj = new Rabbit("T-Rex");
+
+// for (let item in obj){
+//     console.log(item + '=' +obj.hasOwnProperty(item));
+// }
+// console.log(typeof obj.eats);
+
+// String.prototype.repeat = function(times){
+//     return new Array(times+1).join(this);
+// }
+
+// console.log("yulia".repeat(5));
+
+
+class User{
+    constructor(name){
+        this.name = name;
+    }
+    sayHi(){
+        console.log("Hi from " + this.name);
+    }
+}
+
+// let user = new User("Alex");
+// user.sayHi();
+
+class Admin extends User{
+sayHi(){
+    super.sayHi();
+    console.log("By from " + this.name);
+}
+}
+let admin = new Admin("Serhii");
+console.log(admin.sayHi());
