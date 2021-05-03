@@ -1,71 +1,41 @@
-// практика по аватарке
-// let name = "https://api.github.com/users/Yuliya0712"
+// $("#container").children().css("background-color", "yellow");
 
-// $.ajax({
-//   url: "https://api.github.com/users/Yuliya0712",
-//   type: "GET",
-//   dataType: "json",
-//   success: function(res) {
-//     console.log(res);
-//     for (let item in res){
-//         console.log(item+"="+res[item]);
-//         $('#result').append('<div>'+res[item]+'</div>');
+// let n = $(".item").length;
 
+// for(let i = 0; i < n; i++ ){
+//     if (i%2) {
+//         $(".item").eq(i).css("background-color","yellow");
+//     }else{
+//         $(".item").eq(i).css("background-color","green");
 //     }
-
-
-    // $('#result').append('<div>'+res.avatar_url+'</div>');
-    // $('#result').append('<div>'+JSON.stringify(res)+'</div>');
-//   },
-// });
-
-// function Animal(name){
-//     this.name = name;
-//     this.speed = 0;
 // }
 
-// function Rabbit(name){
-//     this.eats = true;
-//     this.name = name;
-//     this.speed = 0;
-// }
+// let n = $(".item").length;
+// console.log($("#container").height());
+// console.log($(window).height());
 
-// Rabbit.prototype = Object.create(Animal.prototype);
-// Rabbit.prototype.constructor = Rabbit;
+//  for(let i = 0; i < n; i++ ){
+//     $(".item").eq(i).css("background-color","yellow");
+//  }
 
+//  $(".item").each(function (index) {
+//      if(index%2){
+//         $(this).addClass("yellow");
+//      }else{
+//         $(this).html("<strong>Hello world</strong>");
+//      }
+   //   console.log(index +" - "+ $(this).html());
+   //   if($(this).hasClass("box")){
+   //   $(this).removeClass("box");
+   //   }
+// console.log($(this).height(60));
+//  })
 
+//  console.log($(".item").parent()); 
 
-// let obj = new Rabbit("T-Rex");
+// $("#container").after("<p>End of document</p>")
 
-// for (let item in obj){
-//     console.log(item + '=' +obj.hasOwnProperty(item));
-// }
-// console.log(typeof obj.eats);
-
-// String.prototype.repeat = function(times){
-//     return new Array(times+1).join(this);
-// }
-
-// console.log("yulia".repeat(5));
-
-
-class User{
-    constructor(name){
-        this.name = name;
-    }
-    sayHi(){
-        console.log("Hi from " + this.name);
-    }
+for(let i = 0; i < 5; i++){
+   $("#block").append("<p>"+ i +" Lorem</p>");
 }
 
-// let user = new User("Alex");
-// user.sayHi();
-
-class Admin extends User{
-sayHi(){
-    super.sayHi();
-    console.log("By from " + this.name);
-}
-}
-let admin = new Admin("Serhii");
-console.log(admin.sayHi());
