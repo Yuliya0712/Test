@@ -1,0 +1,10 @@
+<books>
+<book id = "book1">
+<title>XML для профессионалов</title>
+<author> Tom Kate </author>
+</book>
+<book id = "book2">
+<title>XML для профессионалов</title>
+<author> Tom Kate </author>
+</book>
+</books>
