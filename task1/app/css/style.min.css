@@ -1,9 +1,0 @@
-#box{
-    background-color: blue;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    transition: 1s all;
-    width: 100px;
-    height: 100px;
-}
